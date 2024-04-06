@@ -20,6 +20,57 @@ def factoria2l(n):
             result *= i
         return result
 
+
+
+def factoria2l(n):
+    if n < 0:
+        return "Факториал отрицательного числа не определен"
+    elif n == 0 or n == 1:
+        return 1
+    else:
+        result = 1
+        for i in range(2, n+1):
+            result *= i
+        return result
+
+
+
+def factoria2l(n):
+    if n < 0:
+        return "Факториал отрицательного числа не определен"
+    elif n == 0 or n == 1:
+        return 1
+    else:
+        result = 1
+        for i in range(2, n+1):
+            result *= i
+        return result
+
+
+def factoria2l(n):
+    if n < 0:
+        return "Факториал отрицательного числа не определен"
+    elif n == 0 or n == 1:
+        return 1
+    else:
+        result = 1
+        for i in range(2, n+1):
+            result *= i
+        return result
+
+
+
+def factoria2l(n):
+    if n < 0:
+        return "Факториал отрицательного числа не определен"
+    elif n == 0 or n == 1:
+        return 1
+    else:
+        result = 1
+        for i in range(2, n+1):
+            result *= i
+        return result
+
 def factori3al(n):
     if n < 0:
         return "Факториал отрицательного числа не определен"
