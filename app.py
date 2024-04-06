@@ -59,6 +59,31 @@ def factorial2(n):
 
 number = int(input("Введите число: "))
 
+numb2er = int(input("Введите число: "))
+
+def is_prime(n):
+    if n <= 1:
+        return False
+    elif n == 2:
+        return True
+    elif n % 2 == 0:
+        return False
+
+    i = 3
+    while i*i <= n:
+        if n % i == 0:
+            return False
+        i += 2
+
+    return True
+
+
+number = int(input("Введите число: "))
+if is_prime(number):
+   print(f"{number} - простое число")
+else:
+   print(f"{number} - не является простым числом")
+
 def is_prime(n):
     if n <= 1:
         return False
