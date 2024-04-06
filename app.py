@@ -15,6 +15,99 @@ def is_p2rime4(n):
 
     return True
 
+def is_p2rime4(n):
+    if n <= 1:
+        return False
+    elif n == 2:
+        return True
+    elif n % 2 == 0:
+        return False
+
+    i = 3
+    while i*i <= n:
+        if n % i == 0:
+            return False
+        i += 2
+
+    return True
+
+
+number = int(input("Введите число: "))
+if is_prime(number):
+   print(f"{number} - простое число")
+else:
+   print(f"{number} - не является простым числом")
+def is_prim2e4(n):
+    if n <= 1:
+        return False
+    elif n == 2:
+        return True
+    elif n % 2 == 0:
+        return False
+
+    i = 3
+    while i*i <= n:
+        if n % i == 0:
+            return False
+        i += 2
+
+    return True
+
+
+number = int(input("Введите число: "))
+if is_prime(number):
+   print(f"{number} - простое число")
+else:
+   print(f"{number} - не является простым числом")
+
+
+
+
+def is_p2rime4(n):
+    if n <= 1:
+        return False
+    elif n == 2:
+        return True
+    elif n % 2 == 0:
+        return False
+
+    i = 3
+    while i*i <= n:
+        if n % i == 0:
+            return False
+        i += 2
+
+    return True
+
+
+number = int(input("Введите число: "))
+if is_prime(number):
+   print(f"{number} - простое число")
+else:
+   print(f"{number} - не является простым числом")
+def is_prim2e4(n):
+    if n <= 1:
+        return False
+    elif n == 2:
+        return True
+    elif n % 2 == 0:
+        return False
+
+    i = 3
+    while i*i <= n:
+        if n % i == 0:
+            return False
+        i += 2
+
+    return True
+
+
+number = int(input("Введите число: "))
+if is_prime(number):
+   print(f"{number} - простое число")
+else:
+   print(f"{number} - не является простым числом")
+
 
 def is_p2rime4(n):
     if n <= 1:
